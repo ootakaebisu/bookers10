@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+h2 {
+  margin : 20px 0 10px;
+}
+
+nav > span {
+  color : #fff;
+  font-size: 20px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+// .actions {
+//   margin-left: -15px;
+//   margin-right: -15px;
+//   margin-bottom: 10px;
+// }
